@@ -1,0 +1,71 @@
+/*estilo global*/
+body {
+    background-color: #f0f8ff; /*cor de fundo*/
+    font-family: Arial, sans-serif; /*tipo de fonte*/
+    margin: 0; /*remove margens padrão*/
+    padding: 0; /*remove espaços padrão*/
+}
+
+/*estilo para o titulo*/
+h1 {
+    color: #2a9d8f; /*cor do teexto*/
+    text-align: center; /*alinhamento*/
+    margin-top: 80px; /*espaço superior*/
+}
+
+/*estilo para os paragrafos*/
+p {
+    color: #264653;  /*cor do teexto*/
+    text-align: center;/*alinhamento*/
+    font-size: 18px; /*tamanho da fonte*/
+    margin-top: 20px; /*espaço superior*/
+}
+
+img {
+    border: 2px solid #2a9d8f; /*borda ao redor da imagem*/
+    border-radius: 10px; /*deixa os cantos arredondados*/
+    display: block; /*faz a imagem ficar centralizada*/
+    margin: 20px auto; /*adiciona espaçamento e centraliza*/
+}
+
+a {
+    color: #e76f51; /*cor do link*/
+    text-decoration: none; /*remove o sublinhado*/
+}
+
+a:hover {
+    text-decoration: underline; /*sublinha ao passar o mouse*/
+    color: #2a9d8f; /*muda a cor ao passar o mouse*/
+}
+
+/*estilo do menu de navegação*/
+nav {
+    background-color: #2a9d8f; /*cor do fundo do menu*/
+    padding: 10px 0; /*espaço interno*/
+    position: fixed; /*fixa o menu no topo*/
+    top: 0; /*coloca o menu no topo da página*/
+    width: 100%; /*faz o menu ocupar toda a largura da tela*/
+    z-index: 1000; /*garante que o menu fique por cima de outros conteúdos*/
+}
+
+nav ul {
+    list-style-type: none; /*remove a lista de marcadores*/
+    padding: 0;
+    text-align: center; /*centraliza os itens*/
+}
+
+nav ul li {
+    display: inline; /*coloca os itens na mesma linha*/
+    margin: 0 15px; /*espaço entre os itens*/
+}
+
+nav ul li a {
+    color: white; /*cor do texto do link*/
+    text-decoration: none; /*remove o sublinhado*/
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /*sublinha ao passar o mouse*/
+    color: #264653; /*cor do link ao passar o mouse*/
+}
